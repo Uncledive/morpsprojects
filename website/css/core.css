@@ -1,0 +1,274 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+html, body {
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 24px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 20px !important;
+}
+
+p {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topNav {
+    font-size: 12px !important;
+    font-weight: bolder;
+}
+
+@media (max-width: 767px) { 
+    .subNav{
+        display:none;
+    }
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    color: #000;
+    background-color: green;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #000000;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#myNav {
+    transition: 0.4s;
+    background: #fff !important;
+}
+
+.subNav {
+
+    background: green !important;
+    color: #fff !important;
+}
+
+.subNav a {
+    font-weight: bolder;
+    color: #fff !important;
+}
+
+.subNav a:hover {
+    font-weight: bold;
+    color: lightgrey !important;
+    text-decoration: none !important;
+}
+
+.nav-link:hover {
+    
+    text-decoration: underline solid lightgray 25% !important;
+    /* transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease; */
+}
+
+.footer {
+    height: 30vh;
+    background-color: green;
+    color: #fff;
+}
+
+
+.w-100 {
+    width: 100%!important;
+    height: 45vh !important;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: center center no-repeat;
+}
+
+.carousel-caption {
+    width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+}
+
+/* img {
+    max-height: 50vh;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 10s;
+}
+
+@keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+}
+     */
+
+.card-title {
+    margin-bottom: 20px !important;
+}
+.card-text {
+    margin-bottom: 20px !important;
+}
+
+
+section{
+    padding: 60px 0;
+}
+
+
+#what-we-do{
+    background:#ffffff;
+}
+
+
+#what-we-do .card{
+    text-align: center;
+    padding: 20px!important;
+    border: none;
+    margin-bottom:1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#what-we-do .card:hover{
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+#what-we-do .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+
+#what-we-do .card .card-block a{
+    color: #007b5e !important;
+    font-weight:700;
+    text-decoration:underline solid;
+}
+
+#what-we-do .card .card-block a i{
+    display:none;
+
+}
+
+#what-we-do .card:hover .card-block a i{
+    display:inline-block;
+    font-weight:700;
+}
+
+#what-we-do .card .card-block:before{
+    font-family: FontAwesome;
+    position: absolute;
+    padding-top: 2rem;
+    font-size: 39px;
+    color: green;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+
+#what-we-do .card .block-1:before{
+    content: "\f1e6";
+}
+
+#what-we-do .card .block-2:before{
+    content: "\f26c";
+}
+
+#what-we-do .card .block-3:before{
+    content: "\f023";
+}
+
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+
+#what-we-do .card:hover .card-block:before{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);	
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+
+/*about section start*/
+
+.about {
+    padding-top: 40px;
+    margin-bottom: 100px;
+
+}
+
+
+/*about section end*/
+
+
+.map {
+    padding-top: 100px;
+}
+
+
+.footer {
+    margin-top: 100px;
+    height: auto;
+}
+
+
+
+/* Service Page Start */
+
+/*.service-page {
+    height: 30vh;
+    background: url("/img/1678450913126.jpg") center center no-repeat;
+    position: relative;
+    background-size: cover;
+    color: #fff;
+}*/
+
+ img {
+    width:100%;
+    height: auto;
+    
+
+}
+/* Service Page End */
